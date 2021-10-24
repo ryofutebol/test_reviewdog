@@ -2,9 +2,7 @@
 
 class Test {
     public function sum(int $a, int $b): int
-    {
-        return $a+$b;
-    }
+    {return $a+$b;}
 
     public function execute(): int
     {
