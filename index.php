@@ -9,7 +9,7 @@ class Test {
     public function execute(): int
     {
         $a = 10;
-        $b = 'こんにちは';
+        $b = 'PHP';
         return $this->sum($a, $b);
     }
 
