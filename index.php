@@ -8,8 +8,9 @@ class Test {
     {
         $a = 10;
         $b = 'PHP';
-        return $this->sum($a, $b);
+        return $this->sum($a,$b);
     }
+
 
 
 
