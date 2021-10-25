@@ -1,6 +1,6 @@
 name: reviewdog
 on:
-  pull_request:
+  push:
     branches:
       - main
 jobs:
@@ -13,6 +13,8 @@ jobs:
       - uses: reviewdog/action-setup@v1
         with:
           reviewdog_version: latest
+      - name: code snifffer install
+        run: composer require squizlabs/php_codesniffer
       - name: lint
         env:
           # 2. reviewdog が コメントを書き込めるように token をセットする
