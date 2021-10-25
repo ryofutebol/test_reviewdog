@@ -7,7 +7,7 @@ class Test {
     public function execute(): int
     {
         $a =10;
-        $b = 'PHP';
+        $b ='PHP';
         return $this->sum($a,$b);
     }
 
