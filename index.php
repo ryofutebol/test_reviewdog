@@ -6,6 +6,7 @@ class Test {
 
     public function execute(): int
     {
+        $x = '';
         $a =10;
         $b ='PHP';
         return $this->sum($a,$b);
