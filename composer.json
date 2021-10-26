@@ -1,5 +1,8 @@
 {
     "require": {
         "squizlabs/php_codesniffer": "*"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^0.12.99"
     }
 }

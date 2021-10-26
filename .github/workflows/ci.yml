@@ -30,6 +30,8 @@ jobs:
       - uses: reviewdog/action-setup@v1
         with:
           reviewdog_version: latest
+      - name: phpstan install
+        run: composer require phpstan/phpstan
       - name: analyse
         env:
           # 2. reviewdog が コメントを書き込めるように token をセットする
